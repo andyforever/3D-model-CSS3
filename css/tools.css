@@ -1,0 +1,38 @@
+.toolArea {
+	position: absolute;
+	width: 300px;
+	height: 1050px;
+	
+	left: 20px;
+	top: 20px;
+	
+	display: inline;
+	background-color: #181818;
+	z-index: 99;
+	/*background-image: url("../res/background.png");*/
+}
+
+.tool {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	
+	float: left;
+	margin: 23px;
+	
+	background-color: #00a08b;
+	box-shadow: 3px 3px 6px #fff;
+	border: 2px;
+	border-radius: 100px;
+	
+	font-family: "Lucida Sans";
+	text-align: center;
+	line-height: 100px;
+	font-size: 30px;
+	color: white;
+}
+
+.tool:hover {
+	-webkit-transform: scale(1.2);
+	background-color: #f28d01;
+}
